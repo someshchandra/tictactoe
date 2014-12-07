@@ -15,7 +15,7 @@
         boardRenderSurfaceId: "boardRenderSurface"
     };
 
-    // This is test
+    // Another comment
     Board.prototype.drawBoard = function (state) {
         var gameRenderSurfaceDiv = $(state.gameRenderSurfaceSelector);
         var gameRenderSurfaceDimension = this.size * 62;
